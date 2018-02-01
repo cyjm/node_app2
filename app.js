@@ -5,11 +5,21 @@ var nodeMailer = require('nodemailer');
 
 var app = express();
 
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'pug');
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req,res){
-	res.send('Hello, world')
+	res.render('index');
+});
+app.get('/about', function(req,res){
+	res.render('about');
+});
+app.get('/contact', function(req,res){
+	res.render('contact');
 });
 
 app.listen(3000);

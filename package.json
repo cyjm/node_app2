@@ -15,8 +15,8 @@
   "dependencies": {
     "body-parser": "*",
     "express": "*",
-    "pug": "*",
-    "nodemailer": "*"
+    "nodemailer": "*",
+    "pug": "^2.0.0-alpha6"
   },
   "bugs": {
     "url": "https://github.com/cyjm/node_app2/issues"
