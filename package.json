@@ -1,0 +1,25 @@
+{
+  "name": "node_app2",
+  "version": "1.0.0",
+  "description": "simple website with express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyjm/node_app2.git"
+  },
+  "author": "Ivan Korobkin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "*",
+    "pug": "*",
+    "nodemailer": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/cyjm/node_app2/issues"
+  },
+  "homepage": "https://github.com/cyjm/node_app2#readme"
+}
